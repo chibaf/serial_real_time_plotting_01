@@ -6,7 +6,6 @@ void setup() {
 
 void loop() {
   int i = analogRead( PIN_ANALOG_INPUT );
-//  float f = i * 5.0 / 1023.0;
-  Serial.println( i );
+  Serial.println( i ); // 0 <= i =< 1023
   delay( 100 ); 
 }
