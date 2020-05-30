@@ -33,5 +33,3 @@ while 1:
 f.close()
 ser1.flush()
 ser1.close()
-#ser2.flush()
-#ser2.close()
